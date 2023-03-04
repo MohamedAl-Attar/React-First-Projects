@@ -16,7 +16,7 @@ function App() {
       <Router>
           <NavBar/>
         <Routes>
-          <Route path='/React-First-Projects' element = {<Home/>}></Route>
+          <Route path='/React-First-Projects/' element = {<Home/>}></Route>
           <Route path='/' element = {<Home/>}></Route>
           <Route path='/shop' element = {<Shop/>}></Route>
           <Route path='/counter' element = {<CounterWrap/>}></Route>
